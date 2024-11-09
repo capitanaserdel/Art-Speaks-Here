@@ -97,7 +97,7 @@
           </label>
         </div>
 
-        <a href="#services" :class="{ '' : page === 'home', 'bg-gray-900' : page === 'home' && stickyMenu }" class="lk bg-orange-500 dk rg tc wf xf _l gi hi">Sign Up</a>
+        <a href="#services" :class="{ '' : page === 'home', 'hover:bg-orange-500 bg-gray-500' : page === 'home' && stickyMenu }" class="lk hover:bg-gray-900 bg-orange-500 dk rg tc wf xf _l gi hi">Sign Up</a>
       </div>
     </div>
   </div>
@@ -145,7 +145,7 @@ At Innovation Space, we inspire curiosity, drive technological growth, and suppo
           <div class="tc uf zo xf ap zf bp mq">
             <!-- Small Features Item -->
             <div class="animate_top kn to/3 tc cg oq">
-              <div class="tc wf xf cf ae cd rg mh">
+              <div class="tc wf xf cf ae cd rg oh">
                 <img src="images/icon-01.svg" alt="Icon" />
               </div>
               <div>
@@ -156,7 +156,7 @@ At Innovation Space, we inspire curiosity, drive technological growth, and suppo
 
             <!-- Small Features Item -->
             <div class="animate_top kn to/3 tc cg oq">
-              <div class="tc wf xf cf ae cd rg nh">
+              <div class="tc wf xf cf ae cd bg-gray-900 rg nh">
                 <img src="images/icon-02.svg" alt="Icon" />
               </div>
               <div>
@@ -1150,7 +1150,7 @@ At Innovation Space, we inspire curiosity, drive technological growth, and suppo
 
     <!-- ====== Back To Top Start ===== -->
     <button
-  class="xc wf xf ie ld vg sr gh tr g sa ta _a"
+  class="xc wf xf ie ld vg sr gh tr g sa hover:bg-gray-900 bg-orange-500 ta _a"
   @click="window.scrollTo({top: 0, behavior: 'smooth'})"
   @scroll.window="scrollTop = (window.pageYOffset > 50) ? true : false"
   :class="{ 'uc' : scrollTop }"
